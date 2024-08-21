@@ -1,0 +1,277 @@
+.primary-heading {
+  font-size: 8.4rem;
+  line-height: 1;
+  margin-bottom: 4rem;
+  max-width: 70%;
+}
+
+.personal-description {
+  color: var(--gray);
+  margin-bottom: 8rem;
+}
+
+.contact-me {
+  text-decoration: none;
+  color: var(--gray);
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--green);
+  transition: all 0.25s;
+}
+
+.author-name {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.hero-section::after {
+  position: absolute;
+  content: "";
+  background-image: url("../assets/images/pattern-rings.svg");
+  background-repeat: no-repeat;
+  height: 30%;
+  width: 50%;
+  max-height: 100%;
+  max-width: 100%;
+  top: 17%;
+  left: -25%;
+  z-index: -1;
+}
+
+.img-box {
+  position: absolute;
+  content: "";
+  background-image: url("../assets/images/image-profile-desktop.webp");
+  background-size: cover;
+  height: 100%;
+  width: 40%;
+  top: 0;
+  right: 0;
+  display: block;
+  z-index: -1;
+  padding-bottom: 20rem;
+}
+
+.personal-description {
+  max-width: 45%;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.circle-asset {
+  position: absolute;
+  right: 40%;
+  transform: translateX(50%);
+  top: 70%;
+}
+
+.language {
+  font-size: 4rem;
+}
+
+.skills-section::before {
+  position: absolute;
+  content: "";
+  background-image: url("../assets/images/pattern-rings.svg");
+  background-repeat: no-repeat;
+  height: 30%;
+  width: 50%;
+  max-height: 30%;
+  max-width: 50%;
+  top: 50%;
+  right: 0;
+  transform: translateX(75%);
+  z-index: -1;
+}
+
+.small-text,
+.experience {
+  color: var(--gray);
+}
+
+.secondary-heading {
+  font-size: 7.4rem;
+}
+
+.project-img {
+  width: 100%;
+  margin-bottom: 2rem;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+/* .project-img:hover {
+  filter: brightness(20%);
+}
+
+.project-img-box:hover div {
+  display: block;
+} */
+
+.view-project,
+.view-code {
+  position: absolute;
+  content: "VIEW PROJECT";
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--green);
+  letter-spacing: 1px;
+  z-index: 1;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.view-project:hover,
+.view-code:hover {
+  color: var(--green);
+}
+
+.web-box h4 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.web-box .experience {
+  word-spacing: 1.2rem;
+  font-size: 1.6rem;
+}
+
+.left-box {
+  max-width: 40%;
+}
+
+.contact {
+  margin-bottom: 4rem;
+}
+
+.small-text {
+  line-height: 1.6;
+}
+
+input {
+  all: unset;
+  padding: 0rem 0rem 1.5rem 2rem;
+  width: 36rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+textarea {
+  all: unset;
+  width: 36rem;
+  padding: 0rem 0rem 0rem 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  height: 10rem;
+  overflow-wrap: break-word;
+}
+
+.send-message {
+  color: var(--white);
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--green);
+  display: inline;
+  align-self: end;
+  text-decoration: none;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+.aside::before {
+  position: absolute;
+  content: "";
+  background-image: url("../assets/images/pattern-rings.svg");
+  background-repeat: no-repeat;
+  height: 30%;
+  width: 50%;
+  max-height: 30%;
+  max-width: 50%;
+  top: 65%;
+  transform: translateX(-30%);
+  z-index: 0;
+}
+
+.contact-me:hover {
+  color: var(--green);
+}
+
+.send-message:hover {
+  color: var(--green);
+}
+
+.svg-icon {
+  fill: #fff;
+  transition: all 0.25s;
+}
+
+.svg-icon:hover {
+  fill: var(--green);
+}
+
+.project-img-box {
+  position: relative;
+}
+
+.view-code {
+  content: "VIEW CODE";
+  top: 60%;
+}
+
+.warning {
+  margin-bottom: 3rem;
+  margin-top: 0.5rem;
+  align-self: end;
+  color: #ff6b6b;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.input-flexbox {
+  display: flex;
+  border-bottom: 1px solid var(--gray);
+  gap: 1rem;
+}
+
+.name-box,
+.email-box,
+.message-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.2rem;
+}
+
+.alert-icon {
+  font-size: 2.4rem;
+  color: #ff6b6b;
+  display: none;
+}
+
+.warning {
+  display: none;
+}
+
+.wrong .alertIcon {
+  display: block;
+}
+
+.wrong .warning {
+  display: block;
+}
+
+.correct .alertIcon {
+  display: none;
+}
+
+.correct .warning {
+  display: none;
+}

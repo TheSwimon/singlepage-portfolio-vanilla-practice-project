@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #151515;
+  --green: #4ee4a0;
+  --pale-black: #242424;
+  --gray: #d9d9d9;
+  --white: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Space Grotesk";
+  font-size: 1.8rem;
+  background-color: var(--black);
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+}
